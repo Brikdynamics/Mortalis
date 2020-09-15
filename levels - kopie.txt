@@ -1,0 +1,7 @@
+
+$level4 = $level2 - $exp;
+[hoveel nog]$mortlevel4 = $mortlevel2 - $mortexp;
+[hoveel nog]$morteindlevel = $mortexp - $mortbeginlevel;
+
+$progressbar = 100 / $mortlevel2 * $mortexp;
+$mortbeginlevel = $mortexp - $mortbeginlevel;
